@@ -50,7 +50,7 @@ To understand drivers of customer churn and develop a reliable model that predic
    ggplot(churn, aes(x = Customer_Status, fill = Customer_Status)) +
      geom_bar() + scale_fill_manual(values = c("red", "green")) +
      labs(title = "Churn Distribution", y = "Count")
-````
+
 
 4. **Feature Engineering**
 
@@ -165,18 +165,18 @@ The logistic regression model indicates:
 
 These insights can guide retention strategies such as offering incentives for longer contracts and promoting add-on services that improve customer satisfaction.
 
----
 
-## Visualizations
+ Visualizations
 
 | Visualization                                         | Description                                                       |
 | ----------------------------------------------------- | ----------------------------------------------------------------- |
-| ![Churn Distribution]()        | Overall churn distribution by tenure                              |
+| ![Churn Distribution](Churn%20vs%20Tenure.png)        | Overall churn distribution by tenure                              |
 | ![Contract Type](Churn%20by%20Contract%20Type.png)    | Churn rate across different contract types                        |
 | ![Monthly Charges](Monthly%20Charge%20by%20Churn.png) | Monthly charges comparison between churned and retained customers |
 | ![ROC Curve](ROC%20curve.png)                         | ROC curve illustrating model performance                          |
 
----
+
+
 
 ## Results Summary
 
